@@ -12,6 +12,13 @@ class ContactsTableViewCell: UITableViewCell {
     
     @IBOutlet var lblName: UILabel!
     @IBOutlet var lblCell: UILabel!
+    var position: Int?
+    
+    func buildCell(contact: Contact, position: Int) {
+        lblName.text = contact.name
+        lblCell.text = contact.cell
+        self.position = position
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()
