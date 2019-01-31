@@ -9,6 +9,8 @@
 import UIKit
 
 class ContactsTableViewController: UITableViewController {
+    
+    var contactList: [Contact] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
