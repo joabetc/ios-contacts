@@ -17,6 +17,7 @@
 		0969ABD1220318CD00D12095 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABCF220318CD00D12095 /* Contact+CoreDataProperties.swift */; };
 		0969ABD322031A5900D12095 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABD222031A5900D12095 /* ContactsTableViewController.swift */; };
 		0969ABD522031AA400D12095 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABD422031AA400D12095 /* ContactsTableViewCell.swift */; };
+		0969ABD7220321A500D12095 /* ContactsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABD6220321A500D12095 /* ContactsDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0969ABCF220318CD00D12095 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0969ABD222031A5900D12095 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		0969ABD422031AA400D12095 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		0969ABD6220321A500D12095 /* ContactsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactsDAO.swift; path = DAO/ContactsDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				0969ABBD2203108D00D12095 /* LaunchScreen.storyboard */,
 				0969ABC02203108D00D12095 /* Info.plist */,
 				0969ABB82203108D00D12095 /* Contacts.xcdatamodeld */,
+				0969ABD6220321A500D12095 /* ContactsDAO.swift */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				0969ABD0220318CD00D12095 /* Contact+CoreDataClass.swift in Sources */,
 				0969ABD1220318CD00D12095 /* Contact+CoreDataProperties.swift in Sources */,
 				0969ABBA2203108D00D12095 /* Contacts.xcdatamodeld in Sources */,
+				0969ABD7220321A500D12095 /* ContactsDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

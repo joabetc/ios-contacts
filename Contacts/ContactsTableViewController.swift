@@ -14,6 +14,8 @@ class ContactsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        loadData()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -94,4 +96,7 @@ class ContactsTableViewController: UITableViewController {
     }
     */
 
+    func loadData() {
+        contactList = ContactsDAO.instance.list()
+    }
 }
