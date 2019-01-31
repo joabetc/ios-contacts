@@ -13,6 +13,10 @@
 		0969ABBA2203108D00D12095 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABB82203108D00D12095 /* Contacts.xcdatamodeld */; };
 		0969ABBC2203108D00D12095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0969ABBB2203108D00D12095 /* Assets.xcassets */; };
 		0969ABBF2203108D00D12095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0969ABBD2203108D00D12095 /* LaunchScreen.storyboard */; };
+		0969ABD0220318CD00D12095 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABCE220318CD00D12095 /* Contact+CoreDataClass.swift */; };
+		0969ABD1220318CD00D12095 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABCF220318CD00D12095 /* Contact+CoreDataProperties.swift */; };
+		0969ABD322031A5900D12095 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABD222031A5900D12095 /* ContactsTableViewController.swift */; };
+		0969ABD522031AA400D12095 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ABD422031AA400D12095 /* ContactsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0969ABBB2203108D00D12095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0969ABBE2203108D00D12095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0969ABC02203108D00D12095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0969ABCE220318CD00D12095 /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0969ABCF220318CD00D12095 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0969ABD222031A5900D12095 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		0969ABD422031AA400D12095 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		0969ABA52203108D00D12095 = {
 			isa = PBXGroup;
 			children = (
+				0969ABCE220318CD00D12095 /* Contact+CoreDataClass.swift */,
+				0969ABCF220318CD00D12095 /* Contact+CoreDataProperties.swift */,
 				0969ABB02203108D00D12095 /* Contacts */,
 				0969ABAF2203108D00D12095 /* Products */,
 			);
@@ -59,6 +69,8 @@
 				0969ABB12203108D00D12095 /* AppDelegate.swift */,
 				0969ABB32203108D00D12095 /* ViewController.swift */,
 				0969ABB52203108D00D12095 /* Main.storyboard */,
+				0969ABD222031A5900D12095 /* ContactsTableViewController.swift */,
+				0969ABD422031AA400D12095 /* ContactsTableViewCell.swift */,
 				0969ABBB2203108D00D12095 /* Assets.xcassets */,
 				0969ABBD2203108D00D12095 /* LaunchScreen.storyboard */,
 				0969ABC02203108D00D12095 /* Info.plist */,
@@ -139,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0969ABD522031AA400D12095 /* ContactsTableViewCell.swift in Sources */,
 				0969ABB42203108D00D12095 /* ViewController.swift in Sources */,
 				0969ABB22203108D00D12095 /* AppDelegate.swift in Sources */,
+				0969ABD322031A5900D12095 /* ContactsTableViewController.swift in Sources */,
+				0969ABD0220318CD00D12095 /* Contact+CoreDataClass.swift in Sources */,
+				0969ABD1220318CD00D12095 /* Contact+CoreDataProperties.swift in Sources */,
 				0969ABBA2203108D00D12095 /* Contacts.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
