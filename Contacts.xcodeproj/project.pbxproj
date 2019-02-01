@@ -33,7 +33,7 @@
 		0969ABCF220318CD00D12095 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0969ABD222031A5900D12095 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		0969ABD422031AA400D12095 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
-		0969ABD6220321A500D12095 /* ContactsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactsDAO.swift; path = DAO/ContactsDAO.swift; sourceTree = "<group>"; };
+		0969ABD6220321A500D12095 /* ContactsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +68,7 @@
 		0969ABB02203108D00D12095 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				0969ABD82203266000D12095 /* DAO */,
 				0969ABB12203108D00D12095 /* AppDelegate.swift */,
 				0969ABB32203108D00D12095 /* ViewController.swift */,
 				0969ABB52203108D00D12095 /* Main.storyboard */,
@@ -77,9 +78,17 @@
 				0969ABBD2203108D00D12095 /* LaunchScreen.storyboard */,
 				0969ABC02203108D00D12095 /* Info.plist */,
 				0969ABB82203108D00D12095 /* Contacts.xcdatamodeld */,
-				0969ABD6220321A500D12095 /* ContactsDAO.swift */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		0969ABD82203266000D12095 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				0969ABD6220321A500D12095 /* ContactsDAO.swift */,
+			);
+			name = DAO;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

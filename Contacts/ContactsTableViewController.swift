@@ -51,6 +51,11 @@ class ContactsTableViewController: UITableViewController {
         
         return cell
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        loadData()
+        self.tableView.reloadData()
+    }
 
     /*
     // Override to support conditional editing of the table view.
